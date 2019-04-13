@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-tnez",
+  "version": "0.1.0",
+  "description": "personal eslint config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnez/eslint-config-tnez"
+  },
+  "author": "Travis Nesland <tnesland@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "standard",
+    "prettier"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.config.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 5.16.0 <6",
+    "eslint-config-prettier": ">= 4.1.0 <5",
+    "eslint-config-standard": ">= 12.0.0 <13",
+    "eslint-plugin-import": ">= 2.16.0 <3",
+    "eslint-plugin-jest": ">= 22.4.1 <23",
+    "eslint-plugin-prettier": ">= 3.0.1 <4",
+    "eslint-plugin-promise": ">= 4.1.1 <5",
+    "eslint-plugin-standard": ">= 4.0.0 <5",
+    "prettier": ">= 1.17.0 <2"
+  }
+}
