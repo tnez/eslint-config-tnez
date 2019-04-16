@@ -17,7 +17,7 @@ module.exports = {
     'jest/globals': true,
   },
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2018,
   },
   rules: {
     // eslint
