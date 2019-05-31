@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'standard',
     'prettier',
+    'plugin:react/recommended',
   ],
   plugins: [
     'import',
@@ -9,6 +10,7 @@ module.exports = {
     'jest',
     'prettier',
     'standard',
+    'react',
   ],
   env: {
     browser: true,
@@ -18,6 +20,9 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 2018,
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   rules: {
     // eslint
@@ -39,13 +44,7 @@ module.exports = {
     ],
 
     // jest
-    'jest/consistent-test-it': [
-      'error',
-      {
-        fn: 'it',
-        withinDescribe: 'it',
-      },
-    ],
+    'jest/consistent-test-it': ['error', {'fn': 'test'}],
     'jest/expect-expect': 'error',
     'jest/no-disabled-tests': 'warn',
     'jest/no-focused-tests': 'warn',
