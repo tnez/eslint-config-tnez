@@ -24,6 +24,12 @@ module.exports = {
       jsx: true,
     },
   },
+  settings: {
+    react: {
+      pragma: 'React',
+      version: 'detect',
+    },
+  },
   rules: {
     // eslint
     'sort-keys': ['error', 'asc', { caseSensitive: true, natural: true }],
