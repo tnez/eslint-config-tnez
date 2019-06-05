@@ -38,17 +38,6 @@ module.exports = {
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/prefer-default-export': 0,
 
-    // prettier
-    'prettier/prettier': [
-      'error',
-      // following rules should match .prettierrc
-      {
-        semi: false,
-        singleQuote: true,
-        trailingComma: 'all',
-      },
-    ],
-
     // jest
     'jest/consistent-test-it': ['error', {'fn': 'test'}],
     'jest/expect-expect': 'error',
@@ -62,5 +51,19 @@ module.exports = {
     'jest/prefer-to-be-undefined': 'error',
     'jest/prefer-to-have-length': 'error',
     'jest/valid-expect': 'error',
+
+    // prettier
+    'prettier/prettier': [
+      'error',
+      // following rules should match .prettierrc
+      {
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'all',
+      },
+    ],
+
+    // react
+    'react/prop-types': 0,
   },
 }
