@@ -63,5 +63,8 @@ module.exports = {
 
     // react
     'react/prop-types': 0,
+
+    // typescript
+    '@typescript-eslint/explicit-function-return-type': 0,
   },
 }
