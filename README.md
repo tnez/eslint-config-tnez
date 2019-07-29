@@ -1,7 +1,7 @@
 # eslint-config-tnez
 
 [![npm version](https://badge.fury.io/js/eslint-config-tnez.svg)](https://badge.fury.io/js/eslint-config-tnez)
-[![GitHub license](https://img.shields.io/github/license/tnez/eslint-config-tnez.svg)](https://github.com/tnez/eslint-config-tnez/blob/master/LICENCE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-green)](https://github.com/tnez/eslint-config-tnez/blob/master/LICENCE)
 
 ## Installation
 
