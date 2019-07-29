@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tnez",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "personal eslint config",
   "repository": {
     "type": "git",
