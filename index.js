@@ -1,16 +1,13 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
   extends: [
-    'standard',
-    'prettier',
+    'plugin:@typescript-eslint:recommended',
+    'prettier/@typescript-eslint',
     'plugin:react/recommended',
+    'plugin:prettier/recommended'
   ],
   plugins: [
-    'import',
-    'promise',
     'jest',
-    'prettier',
-    'standard',
-    'react',
   ],
   env: {
     browser: true,
@@ -33,10 +30,6 @@ module.exports = {
   rules: {
     // eslint
     'sort-keys': ['error', 'asc', { caseSensitive: true, natural: true }],
-
-    // eslint-plugin-import
-    'import/order': ['error', { 'newlines-between': 'always' }],
-    'import/prefer-default-export': 0,
 
     // jest
     'jest/consistent-test-it': ['error', {'fn': 'test'}],
