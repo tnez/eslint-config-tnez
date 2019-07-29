@@ -1,6 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
+    'eslint:recommended',
     'plugin:@typescript-eslint:recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended'
@@ -12,6 +13,8 @@ module.exports = {
     'jest',
   ],
   env: {
+    browser: true,
+    node: true,
     jest: true,
     'jest/globals': true,
   },
