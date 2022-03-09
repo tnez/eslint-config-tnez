@@ -6,16 +6,11 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:react/recommended',
   ],
-  plugins: [
-    '@typescript-eslint',
-    'react',
-    'jest',
-  ],
+  plugins: ['@typescript-eslint', 'react', 'jest'],
   env: {
     browser: true,
     node: true,
     jest: true,
-    'jest/globals': true,
   },
   parserOptions: {
     ecmaVersion: 2018,
@@ -36,7 +31,7 @@ module.exports = {
     'sort-keys': ['error', 'asc', { caseSensitive: true, natural: true }],
 
     // jest
-    'jest/consistent-test-it': ['error', {'fn': 'test'}],
+    'jest/consistent-test-it': ['error', { fn: 'test' }],
     'jest/expect-expect': 'error',
     'jest/no-disabled-tests': 'warn',
     'jest/no-focused-tests': 'warn',
