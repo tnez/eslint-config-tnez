@@ -39,8 +39,7 @@ module.exports = {
     'jest/no-jest-import': 'error',
     'jest/no-large-snapshots': ['warn', { maxSize: 300 }],
     'jest/prefer-strict-equal': 'warn',
-    'jest/prefer-to-be-null': 'error',
-    'jest/prefer-to-be-undefined': 'error',
+    'jest/prefer-to-be': 'error',
     'jest/prefer-to-have-length': 'error',
     'jest/valid-expect': 'error',
 

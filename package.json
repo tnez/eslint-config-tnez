@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tnez",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "personal eslint config",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "@typescript-eslint/parser": ">= 2.6.1",
     "eslint": ">= 6.6.0",
     "eslint-config-prettier": ">= 6.5.0",
-    "eslint-plugin-jest": ">= 23.0.3",
+    "eslint-plugin-jest": ">= 26.0.0",
     "eslint-plugin-prettier": ">= 3.1.1",
     "eslint-plugin-react": ">= 7.16.0",
     "prettier": ">= 1.19.0"
